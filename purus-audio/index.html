@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PURUS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/PurusLogo branco.svg" />   
+</head>
+<body>
+
+<nav id="nav">
+     <a href="#" class="logo">PURUS</a>
+        <ul class="nav-elements">
+            <li><a href="#" class="nav-item active" onclick="toggleClean()">Home</a></li>
+            <li><a href="#" class="nav-item" onclick="toggle()">Products</a></li>
+            <li><a href="#services" class="nav-item" id="service" onclick="toggleServices()">Services</a></li>
+            <li><a href="#about" class="nav-item" id="aboutt" onclick="toggleAbout()">About</a></li>
+            <li><a href="#contact" class="nav-item" id="contacts" onclick="toggleContacts()">Contact Us</a></li>
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+ </nav>
+    
+    <section class="hero">
+        <div class="hero-inner">
+            <h1>Welcome to PURUS</h1>
+            <h2>In search of sonic heaven</h2>
+            <h2>Check out our products!</h2>
+            <a href="#" class="btn">Products</a>
+        </div>      
+    </section>
+
+    <section class="content1" id="services">
+        <div>
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Exercitationem nulla quis temporibus, 
+            non consequuntur reiciendis nostrum cum sed? Nesciunt, alias.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Exercitationem nulla quis temporibus, 
+            non consequuntur reiciendis nostrum cum sed? Nesciunt, alias.</p>
+        </div>
+    </section>
+
+    <section class="content2" id="about">
+        <div>
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Exercitationem nulla quis temporibus, 
+            non consequuntur reiciendis nostrum cum sed? Nesciunt, alias.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Exercitationem nulla quis temporibus, 
+            non consequuntur reiciendis nostrum cum sed? Nesciunt, alias.</p>
+        </div>
+        <img src="images/headphones-man-music-person-374777.jpg" alt="">
+    </section>
+
+    <section class="content1" id="contact">
+        <div>
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Exercitationem nulla quis temporibus, 
+            non consequuntur reiciendis nostrum cum sed? Nesciunt, alias.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Exercitationem nulla quis temporibus, 
+            non consequuntur reiciendis nostrum cum sed? Nesciunt, alias.</p>
+            <p>Contact us via:</p>
+            <div class="icon-container">
+                <a href="https://www.facebook.com/purusaudio/" class="icon-link"><i class="fi-snsuxl-facebook"></i></a>
+                <a href="#" class="icon-link"></a><i class="fi-xwsuxl-envelope-solid"></i></a>
+                <a href="#" class="icon-link"></a><i class="fi-xnsuxl-whatsapp"></i></a>
+                <a href="#" class="icon-link"></a><i class="fi-xnsrxl-phone-solid"></i></a>
+            </div>
+        </div>
+    </section>
+
+    
+ 
+<script src="./toggle.js"></script>
+<script defer src="https://friconix.com/cdn/friconix.js"> </script>    
+</body>
+</html>
